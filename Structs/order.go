@@ -72,5 +72,5 @@ func main() {
 
 	myOrder.changeStatus("confirmed")
 	fmt.Println(myOrder.status)
-
+	
 }
