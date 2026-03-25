@@ -20,8 +20,8 @@ type orderStatus string
 
 const (
 	Received orderStatus = "received"
-	Processing  = "processing"
-	Cancelled = "cancelled"
+	Processing orderStatus = "processing"
+	Cancelled orderStatus = "cancelled"
 )
 
 func changeOrderStatus(status orderStatus){
