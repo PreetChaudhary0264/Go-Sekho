@@ -6,7 +6,7 @@ import "time"
 
 // a := 10 //global variable, ye error dega kyuki global variable ko hum aise declare nhi kr skte hai , shorthand syntax work nhi krta global me
 
-func main() {
+func main2() {
     fmt.Println("Hello World")
 
     var name string = "preet"
