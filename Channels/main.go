@@ -31,4 +31,13 @@ func main(){
 	//channel close krne ke baad bhi usme values ko receive kiya ja skta hai but agar add krnege to panic aayga
 
 	time.Sleep(2 * time.Second)
+
+
+	numC := make(chan int)
+
+	numC <- 5
+
+	o := <- numC
+	fmt.Println(o)
+
 }
