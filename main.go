@@ -35,7 +35,7 @@ func (ll *LinkedList[T]) print() {
 	fmt.Print(nil)
 }
 
-func main() {
+func main4() {
     ll := LinkedList[int]{}
 	ll.insert(1)
 	ll.insert(2)
