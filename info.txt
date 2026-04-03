@@ -1,0 +1,5 @@
+go mod init github.com/PreetChaudhary0264/Go-Sekho
+
+github.com/fatih/color
+
+go mod tidy                               #agar koi package use kr rhe hai and wo install nhi hai to ye command use install bhi kr degi 
